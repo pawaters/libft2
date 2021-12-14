@@ -6,7 +6,7 @@
 #    By: pwaters <pwaters@student.hive.fi>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/30 11:03:23 by pwaters           #+#    #+#              #
-#    Updated: 2021/12/13 14:14:05 by pwaters          ###   ########.fr        #
+#    Updated: 2021/12/14 11:06:53 by pwaters          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,6 +20,7 @@ SRC = ft_atoi.c \
 	  ft_isdigit.c \
 	  ft_isprint.c \
 	  ft_itoa.c \
+	  ft_freetab.c \
 	  ft_memalloc.c \
 	  ft_memccpy.c \
 	  ft_memchr.c \

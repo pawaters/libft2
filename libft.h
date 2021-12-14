@@ -6,7 +6,7 @@
 /*   By: pwaters <pwaters@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/29 16:22:28 by pwaters           #+#    #+#             */
-/*   Updated: 2021/12/13 14:15:13 by pwaters          ###   ########.fr       */
+/*   Updated: 2021/12/14 11:25:32 by pwaters          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,5 +86,6 @@ void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 int					ft_numlen(int nb);
 int					ft_wc(char const *s, char c);
+void				*ft_freetab(char **tab);
 
 #endif
