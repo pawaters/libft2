@@ -6,7 +6,7 @@
 /*   By: pwaters <pwaters@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/14 10:47:07 by pwaters           #+#    #+#             */
-/*   Updated: 2021/12/14 11:24:51 by pwaters          ###   ########.fr       */
+/*   Updated: 2021/12/14 13:29:51 by pwaters          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	*ft_freetab(char **tab)
 
 	i = 0;
 	while (tab[i])
-		free(tab[i]);
+		free(tab[i++]);
 	free(tab);
 	return (NULL);
 }	

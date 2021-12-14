@@ -6,7 +6,7 @@
 /*   By: pwaters <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 13:20:23 by pwaters           #+#    #+#             */
-/*   Updated: 2021/12/09 11:23:32 by pwaters          ###   ########.fr       */
+/*   Updated: 2021/12/14 13:44:14 by pwaters          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,5 +30,5 @@ void	ft_putnbr(int nb)
 		ft_putchar(nb % 10 + '0');
 	}
 	else
-		ft_putchar(nb + '0');
+		ft_putchar((char)(nb + '0'));
 }

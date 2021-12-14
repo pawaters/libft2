@@ -6,7 +6,7 @@
 /*   By: pwaters <pwaters@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/30 16:29:44 by pwaters           #+#    #+#             */
-/*   Updated: 2021/12/09 11:54:09 by pwaters          ###   ########.fr       */
+/*   Updated: 2021/12/14 13:44:43 by pwaters          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,5 +27,5 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putchar_fd(n % 10 + '0', fd);
 	}
 	else
-		ft_putchar_fd(n + '0', fd);
+		ft_putchar_fd((char)(n + '0'), fd);
 }

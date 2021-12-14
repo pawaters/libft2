@@ -6,7 +6,7 @@
 /*   By: pawaters <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/08 12:06:07 by pawaters          #+#    #+#             */
-/*   Updated: 2021/12/09 11:09:36 by pwaters          ###   ########.fr       */
+/*   Updated: 2021/12/14 13:35:28 by pwaters          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ char	*ft_itoa(int n)
 		res = ft_strjoin(ft_itoa(n / 10), ft_itoa(n % 10));
 	else if (n < 10 && n >= 0)
 	{
-		res[0] = n + '0';
+		res[0] = (char)(n + '0');
 		res[1] = '\0';
 	}
 	return (res);

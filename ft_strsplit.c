@@ -6,7 +6,7 @@
 /*   By: pawaters <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/08 16:43:59 by pawaters          #+#    #+#             */
-/*   Updated: 2021/12/14 11:22:33 by pwaters          ###   ########.fr       */
+/*   Updated: 2021/12/14 13:29:46 by pwaters          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,13 +14,13 @@
 
 char	**ft_strsplit(char const *s, char c)
 {
-	int		i;
-	int		j;
-	int		k;
-	char	**tab;
+	unsigned int		i;
+	unsigned int		j;
+	unsigned int		k;
+	char				**tab;
 
 	i = ((k = 0), 0);
-	tab = (char **)malloc(sizeof(char *) * (ft_wc(s, c)) + 1);
+	tab = (char **)malloc(sizeof(char *) * ((ft_wc(s, c)) + 1));
 	if (tab == NULL)
 		return (NULL);
 	while (s[i])
