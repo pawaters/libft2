@@ -1,6 +1,5 @@
 # libft - my own implementation of the standard C library
 
-What is libft?
-Libft is an individual project at 42 that requires us to re-create some standard C library functions including some additional ones that can be used later to build a library of useful functions for the rest of the program.
+Libft is a project at Hive that requires us to re-create some standard C library functions.
+We then had to use it for any other program in C we had to write and not rely on anything external.
 
-Disclaimer: Reinventing the wheel is bad, 42 makes us do this just so we can have a deeper understanding of data structures and basic algorithms. At 42 we're not allowed to use some standard libraries on our projects, so we have to keep growing this library with our own functions as we go farther in the program.
